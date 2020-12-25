@@ -1,0 +1,135 @@
+/*Header CSS*/
+
+.header{
+    width: 100%;
+    height: 120px;
+    position: relative; 
+}
+.menu{
+    height: 50px;
+    width: 50px;
+    right: 35px;
+    top: 35px;
+    border-radius: 25px;
+    background-color: #6366F1;
+    position: absolute;
+}
+.language{
+    position: absolute;
+    width: 59px;
+    height: 21px;
+    right: 200px;
+    top: 49px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.71);
+}
+.line{
+    background-color: #FFFFFF;
+    position: absolute;
+    width: 27px;
+    height: 0px;
+    right: 10px;
+    top: 52px;
+    border: 1.5px solid #FFFFFF;
+}
+.line1{
+    top: 17px;
+    
+}
+.line2{
+    top: 25px;
+}
+.line3{
+    width: 13.85px;
+    top: 33px;
+}
+
+/*Main CSS*/
+
+/*Main CSS --> Presentation title*/
+.main-content{
+    position: relative;
+    width: 100%;
+    height: 1500px;
+    background-color: rgb(105, 232, 241);
+}
+.presentation{
+    width: 100%;
+    height: 350px;
+}
+.presentation-img{
+    position: absolute;
+    width: 50%;
+    height: 100px;
+    align-items: center;   
+}
+.img-diagonal-lines{
+    position: absolute;
+    width: 165px;
+    height: 154px;
+    right: 133px;
+    top: 0px;
+
+    /*background: url(Sin título-2-01.png);*/
+}
+.img-main{
+    position: absolute;
+    width: 225px;
+    height: 245px;
+    right: 20px;
+    top: 44px;
+
+    /*background: url(964a9c5ac9933cc012d0bd80be.jpg);
+    border: 4px solid rgba(99, 102, 241, 0.8);
+    box-sizing: border-box;
+    border-radius: 30px;*/
+    }
+.presentation-title{
+    position: absolute;
+    width: 50%;
+    height: 100px;
+    right: 0px;
+    top: 50px;
+}
+
+/*Main CSS --> Common*/
+
+.general-span{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 25px; 
+}
+.general-button{
+    background: #6366F1;
+    color: #FFFFFF;
+    height: 44px;
+    width: 210px;
+    border-radius: 25px;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+}
+.general-line{
+    background: #6366F1;
+    width: 98.02px;
+    height: 0px;
+    border: 5px solid #6366F1;
+}
+
+/*Main CSS --> About*/
+.about-title{
+    top:608px;
+    left: 250px;
+}
+
+/*Main CSS --> Projects*/
+
+/*Main CSS --> Blogs*/
+
+/*Main CSS --> Skills*/
+
+/*Footer CSS*/
