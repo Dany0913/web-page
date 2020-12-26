@@ -1,9 +1,16 @@
+body{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.01em;
+}
+
 /*Header CSS*/
 
 .header{
     width: 100%;
     height: 120px;
-    position: relative; 
+    position: relative;
 }
 .menu{
     height: 50px;
@@ -20,7 +27,7 @@
     height: 21px;
     right: 200px;
     top: 49px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -38,7 +45,7 @@
 }
 .line1{
     top: 17px;
-    
+
 }
 .line2{
     top: 25px;
@@ -50,13 +57,48 @@
 
 /*Main CSS*/
 
-/*Main CSS --> Presentation title*/
+/*Main CSS --> General*/
+
 .main-content{
     position: relative;
     width: 100%;
-    height: 1500px;
-    background-color: rgb(105, 232, 241);
 }
+.general-span{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+}
+.general-button{
+    background: #6366F1;
+    color: #FFFFFF;
+    height: 44px;
+    width: 210px;
+    border-radius: 25px;
+    font-size: 15px;
+    line-height: 18px;
+}
+.general-line{
+    position: absolute;
+    width: 98.02px;
+    height: 0px;
+    background-color: #6366F1;
+    border: 3px solid #6366F1;
+}
+.general-container{
+    width: 70%;
+    margin: 5% auto;
+    position: relative;
+}
+div.general-container h2{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+
+/*Main CSS --> Presentation title*/
+
 .presentation{
     width: 100%;
     height: 350px;
@@ -65,7 +107,7 @@
     position: absolute;
     width: 50%;
     height: 100px;
-    align-items: center;   
+    align-items: center;
 }
 .img-diagonal-lines{
     position: absolute;
@@ -73,7 +115,6 @@
     height: 154px;
     right: 133px;
     top: 0px;
-
     /*background: url(Sin título-2-01.png);*/
 }
 .img-main{
@@ -95,41 +136,181 @@
     right: 0px;
     top: 50px;
 }
-
-/*Main CSS --> Common*/
-
-.general-span{
-    background: #FFFFFF;
-    box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.15);
-    border-radius: 25px; 
-}
-.general-button{
-    background: #6366F1;
-    color: #FFFFFF;
-    height: 44px;
-    width: 210px;
-    border-radius: 25px;
-    font-size: 15px;
-    line-height: 18px;
-    letter-spacing: 0.01em;
-}
-.general-line{
-    background: #6366F1;
-    width: 98.02px;
-    height: 0px;
-    border: 5px solid #6366F1;
+div.presentation-title h1{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: -0.01em;
+    font-weight: 700;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.8);
 }
 
 /*Main CSS --> About*/
-.about-title{
-    top:608px;
-    left: 250px;
+.about{
+
 }
+.about-title{
+    width: 100%;
+    position: relative;
+}
+.about-text{
+    width: 70%;
+    margin: auto 0;
+}
+div.about-text p{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 267.69%;
+    /* or 40px */
+    letter-spacing: 0.04em;
+    color: rgba(0, 0, 0, 0.8);
+
+}
+.about-button{
+    width: 30%;
+    position: absolute;
+    right: -10%;
+    top: 40%;
+}
+.about-line{
+    top: 20px;
+    left: 190px;
+}
+
 
 /*Main CSS --> Projects*/
 
+.project-title{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+.project-line{
+    top: 50px;
+    right: 46%;
+}
+.project-boxes{
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+.img-top{
+    position: absolute;
+    top: 5%;
+    left: 0;
+}
+.img-botton{
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+}
+.project-box{
+    display: inline-block;
+    margin: 1%;
+    width: 300px;
+    height: 190px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 2%;
+    position: relative;
+}
+div.project-box h3{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+}
+div.project-box p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+}
+div.project-box img{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+div.project-box a{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    color: #6366F1;
+}
+/*div.project-box a:link{
+    color: red;
+}
+div.project-box a:hover{
+    color: #6366F1;
+}
+.project-button{
+    margin: auto;
+}*/
+
 /*Main CSS --> Blogs*/
+.blog-title{
+    text-align: left;
+}
+.blog-line{
+    top: 20px;
+    left: 190px;
+}
+.blog-boxes{
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+.blog-box{
+    display: inline-block;
+    margin: 1%;
+    width: 390px;
+    height: 165px;
+    background: #FFFFFF;
+    padding: 2%;
+    position: relative;
+}
 
 /*Main CSS --> Skills*/
-
+.skills{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.skills-line{
+    top: 50px;
+    right: 46%;
+}
 /*Footer CSS*/
+.footer-msj{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: rgba(0, 0, 0, 0.55);
+}
+.footer-email{
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 53px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.footer-logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: #6366F1;
+    position: absolute;
+    align-content: center;
+    top: 35px;
+}
+.footer-fb{
+    right: 120px;
+}
+.footer-tw{
+    right: 60px;
+}
+.footer-insta{
+    right: 0;
+    background-color: lightpink;
+}

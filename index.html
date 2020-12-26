@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link rel="stylesheet" href="css/main-styles.css">
     <script src="js/main-app.js"></script>
     <title>Blog - Make it real</title>
@@ -31,38 +33,98 @@
                 <p>Scroll down <img src="img/vector-little-arrow.png" alt="little-arrow"></p>
             </div>
         </div>
-        <div class="about">
+        <div class="general-container about">
             <div class="about-title">
                 <h2>About me</h2>
                 <div class="general-line about-line"></div>
             </div>
             <div class="about-text">
-                <p>I’m currently working as a freelance <strong>fullstack developer and UI/UX designer.</strong> I enjoy building web apps using <span class="general-span"><img src="img/logo-tailwindcss-color.png" alt=""> TailwindCSS </span> and <span class="general-span"><img src="img/logo-react-color.png" alt=""> React </span> I'm also an active student in University of AMIKOM Yogyakarta.</p>
+                <p>I’m currently working as a freelance <strong>fullstack developer</strong> and <strong>UI/UX designer.</strong> I enjoy building web apps using <span class="general-span"><img src="img/logo-tailwindcss-color.png" alt=""> TailwindCSS </span> and <span class="general-span"><img src="img/logo-react-color.png" alt=""> React </span> I'm also an active student in University of AMIKOM Yogyakarta.</p>
             </div>
             <div class="about-button">
                 <button class="general-button button-resume">Download Resume</button>
             </div>
         </div>
-        <div class="project">
-            <h2>Projects</h2>
-            <div class="box-project box-project1">Use pagination</div>
-            <div class="box-project box-project2">larareactia</div>
-            <div class="box-project box-project3">Overflow</div>
-            <div class="box-project box-project4">kos-manager</div>
-            <div class="box-project box-project5">Nix</div>
-            <div class="box-project box-project5">flexbox-tutorial</div>
-            <button class="general-button button-see-more">See more</button>
+        <div class="general-container project">
+            <div class="project-title">
+                <h2>Projects</h2>
+                <div class="general-line project-line"></div>
+            </div>
+            <img class="img-top" src="img/img-circles.png" alt="circles">
+            <img class="img-botton" src="img/img-circles.png" alt="circles">
+            <div class="project-boxes">
+                <div class="project-box box-project1">
+                    <h3>Use pagination</h3>
+                    <p>Simple client side pagination hooks for react.</p>
+                    <img src="img/logo-cat.png" alt="logo-git">
+                    <a href="#">Details</a>
+                </div>
+                <div class="project-box box-project2">
+                    <h3>larareactia</h3>
+                    <p>Laravel SPA + React + Inertia.js + TailwindCSS starter template with authentication. */</p>
+                    <img src="img/logo-cat.png" alt="logo-git">
+                    <a href="#">Details</a>
+                </div>
+                <div class="project-box box-project3">
+                    <h3>Overflow</h3>
+                    <p>TailwindCSS Admin Dashboard Template.</p>
+                    <img src="img/logo-pink.png" alt="logo-git">
+                    <a href="#">Details</a>
+                </div>
+                <div class="project-box box-project4">
+                    <h3>kos-manager</h3>
+                    <p>Lodgement management application. Developed with Laravel, Inertiajs, and React.</p>
+                    <img src="img/logo-cat.png" alt="logo-git">
+                    <a href="#">Details</a>
+                </div>
+                <div class="project-box box-project5">
+                    <h3>Nix</h3>
+                    <p>TailwindCSS Landing Page Template</p>
+                    <img src="img/logo-pink.png" alt="logo-git">
+                    <a href="#">Details</a>
+                </div>
+                <div class="project-box box-project6">
+                    <h3>flexbox-tutorial</h3>
+                    <p>CSS layouting using flexbox tutorial</p>
+                    <img src="img/logo-cat.png" alt="logo-git">
+                    <a href="#">Details</a>
+                </div>
+            </div>
+            <button class="general-button project-button">See more</button>
         </div>
-        <div class="blogs">
-            <h2>Blogs</h2>
-            <button class="general-button button-more-articles">More articles</button>
-            <p><strong>Design Systems con ReactJS y Storybook</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, esse fuga doloremque consectetur incidunt non rerum facilis.</p>
-            <p><strong>Enchulame la terminal - Mac</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, esse fuga doloremque consectetur incidunt non rerum facilis.</p>
-            <p><strong>HEADLESS CMS La mejor solución para ...</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, esse fuga doloremque consectetur incidunt non rerum facilis.</p>
-            <p><strong>Testing framework - Node.js</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, esse fuga doloremque consectetur incidunt non rerum facilis.</p>
+
+        <div class="general-container blog">
+            <div class="blog-title">
+                <h2>Blogs</h2>
+                <div class="general-line blog-line"></div>
+            </div>
+            <button class="general-button blog-button">More articles</button>
+            <div class="blog-boxes">
+                <div class="blog-box">
+                    <h3>Design Systems con ReactJS y Storybook</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, esse fuga doloremque consectetur incidunt non rerum facilis.</p>
+                </div>
+                <div class="blog-box">
+                    <h3>Enchulame la terminal - Mac</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, esse fuga doloremque consectetur incidunt non rerum facilis.</p>
+                </div>
+                <div class="blog-box">
+                    <h3>HEADLESS CMS La mejor solución para ...</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, esse fuga doloremque consectetur incidunt non rerum facilis.</p>
+                </div>
+                <div class="blog-box">
+                    <h3>Testing framework - Node.js</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, esse fuga doloremque consectetur incidunt non rerum facilis..</p>
+                </div>
+            </div>
         </div>
-        <div class="skills">
-            <h2>Skills</h2>
+
+        
+        <div class="general-container skills">
+            <div class="skills-title">
+                <h2>Skills</h2>
+                <div class="general-line skills-line"></div>
+            </div>
             <p>I’ve spent about two years on improving my skills in website development using <span class="general-span"><img src="img/logo-php.png" alt="logo-php"> PHP </span> and <span class="general-span"><img src="img/logo-js.png" alt="logo-js"> Javascript </span>that I’m now pretty confident in building apps using these tools:</p>
             <div class="skills-img">      
                 <img src="img/logo-1.png" alt="logo1">
@@ -76,11 +138,13 @@
         </div>
     </main>
     <footer>
-        <p>Get in touch <img src="img/vector-hand.png" alt="hand"></p>
-        <p>me@me.com</p>
-        <div class="box-fb"></div>
-        <div class="box-tw"></div>
-        <div class="box-insta"></div>
+        <div class="general-container">
+            <p class="footer-msj">Get in touch <img src="img/vector-hand.png" alt="hand"></p>
+            <p class="footer-email">me@me.com</p>
+            <div class="footer-logo footer-fb"><img src="img/vector-fb.png" alt="fb"></div>
+            <div class="footer-logo footer-tw"><img src="img/vector-twitter.png" alt="fb"></div>
+            <div class="footer-logo footer-insta"><img src="img/vector-insta.png" alt="fb"></div>
+        </div>
     </footer>
 </body>
 </html>
