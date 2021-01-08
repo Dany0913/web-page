@@ -72,10 +72,11 @@ body{
     background: #6366F1;
     color: #FFFFFF;
     height: 44px;
-    width: 210px;
     border-radius: 25px;
     font-size: 15px;
     line-height: 18px;
+    border-color: #6366F1;
+    border: none;
 }
 .general-line{
     position: absolute;
@@ -124,20 +125,20 @@ div.general-container h2{
 }
 .img-main{
     position: absolute;
-    background-image: url('../img/img-main.png');
+    background-image: url('../img/img-main-yo.jpg');
     width: 225px;
     height: 245px;
     right: 2%;
     top: 44px;
-
-    /*background: url(964a9c5ac9933cc012d0bd80be.jpg);
     border: 4px solid rgba(99, 102, 241, 0.8);
     box-sizing: border-box;
-    border-radius: 30px;*/
-    }
+    background-repeat: no-repeat;
+    background-size: 225px 245px;
+    border-radius: 30px;
+}
 .presentation-title{
-    right: 0px;
-    top: 10%;
+    right: -10px;
+    bottom: 0;
 }
 div.presentation-title h1{
     font-weight: bold;
@@ -147,6 +148,18 @@ div.presentation-title h1{
     font-weight: 700;
     text-align: left;
     color: rgba(0, 0, 0, 0.8);
+    margin: 20% 0 0 5%;
+}
+div.presentation-title p{
+    margin: 5% 0 0 5%;
+}
+.presentation-subline{
+    /* position: absolute; */
+    width: 290px;
+    height: 13px;
+    background: rgba(99, 102, 241, 0.3);
+    border-radius: 18px;
+    margin: 0 0 0 5%;
 }
 
 /*Main CSS --> About*/
@@ -176,6 +189,9 @@ div.about-text p{
     right: -10%;
     top: 40%;
 }
+.about-button-resume{
+    width: 210px;
+}
 .about-line{
     top: 50%;
     left: 190px;
@@ -184,6 +200,14 @@ div.about-text p{
 
 /*Main CSS --> Projects*/
 
+.project{
+    /* margin: auto; */
+    text-align: center;
+}
+div.project button{
+    margin: 5% 0;
+    width: 139px;
+}
 .project-title{
     text-align: center;
     align-items: center;
@@ -258,7 +282,7 @@ div.project-box a:hover{
 .blog-title{
     text-align: left;
     position: relative;
-}
+}11
 .blog-line{
     top: 50%;
     left: 130px;
@@ -278,6 +302,9 @@ div.project-box a:hover{
     background: #FFFFFF;
     padding: 2%;
     position: relative;
+}
+.blog-button{
+    width: 151px;
 }
 
 /*Main CSS --> Skills*/
@@ -306,6 +333,16 @@ div.skills-img img{
     line-height: 53px;
     color: rgba(0, 0, 0, 0.8);
 }
+.footer-subline{
+    /* position: absolute; */
+    width: 281px;
+    height: 16px;
+    /* left: 249px;
+    top: 2801px; */
+
+    background: rgba(22, 98, 245, 0.35);
+    border-radius: 18px;
+}
 .footer-logo{
     height: 50px;
     width: 50px;
@@ -316,12 +353,22 @@ div.skills-img img{
     top: 35px;
 }
 .footer-fb{
-    right: 120px;
+    right: 140px;
+    background-image: url('../img/vector-fb.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    
 }
 .footer-tw{
-    right: 60px;
+    right: 70px;
+    background-image: url('../img/vector-twitter.png');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .footer-insta{
     right: 0;
-    background-color: lightpink;
+    background-image: url('../img/vector-insta.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35px 35px;
 }
