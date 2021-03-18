@@ -31,6 +31,10 @@ body{
     height: 44px;
     font-size: 15px;
     line-height: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .nav-dropdown-content {
     display: none;
