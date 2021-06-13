@@ -103,6 +103,13 @@ body {
   margin: 0 auto;
   max-width: 1080px;
 }
+.main-title {
+  width: 100%;
+  text-align: center;
+}
+.main-title h2 {
+  margin: 1.5em 0 0.3em 0;
+}
 
 /* Section: About me */
 .about-presentation {
@@ -129,13 +136,6 @@ body {
   background-repeat: no-repeat;
   background-size: 225px 245px;
   border-radius: 2em;
-}
-.main-title {
-  width: 100%;
-  text-align: center;
-}
-.main-title h2 {
-  margin: 1.5em 0 0.3em 0;
 }
 .about-text span {
   background: white;
@@ -170,6 +170,16 @@ body {
   .about-presentation h1 {
     font-size: xx-large;
   }
+}
+
+/* Section: Skills */
+.skills-imgs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.skills-imgs img {
+  margin: 0.5em 1em;
 }
 
 /* Footer */
