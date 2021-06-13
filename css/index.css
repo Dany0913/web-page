@@ -1,0 +1,108 @@
+/* The entire project is built in mobile first */
+
+/* Color variables */
+:root {
+  --css-light-color: #f3f2f5;
+  --css-bright-color: #8567a3;
+  --css-dark-color: #333233;
+}
+
+/* General */
+body {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.01em;
+  margin: 0;
+}
+
+/* Header - Navbar*/
+.header {
+  background-color: var(--css-dark-color);
+  color: var(--css-light-color);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.header-container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header-nav-burguer {
+  margin: 1em;
+  display: block;
+  cursor: pointer;
+  fill: var(--css-light-color);
+}
+.header-nav-burguer:hover {
+  fill: var(--css-bright-color);
+}
+.header-nav {
+  margin: 0;
+  padding-right: 0;
+  width: 100%;
+}
+.header-nav-div-item {
+  display: block;
+  padding: 1.5em 1em;
+  transition: all 0.3s linear;
+  width: 100%;
+}
+.header-nav-div-item:hover {
+  color: var(--css-bright-color);
+  font-weight: bold;
+}
+.header-nav {
+  display: none;
+}
+.header-nav.show {
+  display: block;
+}
+.header-title {
+  font-weight: bold;
+  font-size: 2em;
+  letter-spacing: 0.01em;
+}
+@media only screen and (min-width: 700px) {
+  .header-nav {
+    display: block;
+  }
+  .header-nav-burguer {
+    display: none;
+  }
+  .header-nav {
+    margin: 0;
+    padding-right: 0;
+    left: 0;
+    width: auto;
+  }
+  .header-logo {
+    width: 30%;
+  }
+  .header-nav-div-item {
+    display: inline-block;
+    padding: 1.5em 1em;
+    transition: all 0.3s linear;
+    width: auto;
+    text-align: center;
+  }
+}
+
+/* Main */
+.main {
+  padding-top: 5em;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Footer */
+
+.footer {
+  width: 90%;
+  margin: 0 auto;
+}
