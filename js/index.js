@@ -12,3 +12,4 @@ function fnClicNavBurguer() {
 }
 
 navBurguer.addEventListener("click", fnClicNavBurguer);
+navMenu.addEventListener("click", fnClicNavBurguer);
