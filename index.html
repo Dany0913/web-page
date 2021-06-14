@@ -13,7 +13,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <!-- <link rel="stylesheet" href="css/main-styles.css" /> -->
+    <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/index.css" />
     <title>Daniela Calle</title>
   </head>
@@ -32,15 +32,15 @@
         </svg>
 
         <nav class="header-nav">
-          <a class="header-nav-item" href="#about">About me</a>
-          <a class="header-nav-item" href="#skills">Skills</a>
-          <a class="header-nav-item" href="#projects">Projects</a>
-          <a class="header-nav-item" href="#blog">Blog</a>
+          <div id="header-about" class="header-nav-item active">About me</div>
+          <div id="header-skills" class="header-nav-item">Skills</div>
+          <div id="header-projects" class="header-nav-item">Projects</div>
+          <div id="header-blog" class="header-nav-item">Blog</div>
         </nav>
       </div>
     </header>
 
-    <main class="main">
+    <main id="main" class="main">
       <!-- Section: About me -->
       <section id="about" class="about">
         <div class="about-presentation">

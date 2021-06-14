@@ -10,7 +10,7 @@
 
 /* General */
 body {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: large;
@@ -53,15 +53,20 @@ span {
   margin: 0;
   padding-right: 0;
   width: 100%;
+  display: wrap;
+  flex-wrap: wrap;
 }
 .header-nav-item {
-  display: block;
   padding: 1.5em 1em;
   transition: all 0.3s linear;
   width: 100%;
   text-decoration-line: none;
 }
 .header-nav-item:hover {
+  color: var(--css-bright-color);
+  font-weight: bold;
+}
+.active {
   color: var(--css-bright-color);
   font-weight: bold;
 }
@@ -103,7 +108,7 @@ span {
 
 /* Main */
 .main {
-  padding-top: 7em;
+  padding-top: 2em;
   width: 80%;
   margin: 0 auto;
   max-width: 1080px;
