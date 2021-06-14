@@ -18,6 +18,9 @@ body {
   line-height: 2em;
   margin: 0;
 }
+span {
+  color: var(--css-bright-color);
+}
 
 /* Header - Navbar*/
 .header {
@@ -98,10 +101,13 @@ body {
 
 /* Main */
 .main {
-  padding-top: 5em;
+  padding-top: 7em;
   width: 80%;
   margin: 0 auto;
   max-width: 1080px;
+}
+.main section {
+  margin: 5em 0;
 }
 .main-title {
   width: 100%;
@@ -123,9 +129,6 @@ body {
   font-weight: bold;
   font-size: x-large;
 }
-.about-presentation span {
-  color: var(--css-bright-color);
-}
 .about-img {
   margin: 1.5em;
   background-image: url("../img/img-main-yo.jpg");
@@ -135,7 +138,7 @@ body {
   box-sizing: border-box;
   background-repeat: no-repeat;
   background-size: 225px 245px;
-  border-radius: 2em;
+  border-radius: 1.5em;
 }
 .about-text span {
   background: white;
@@ -143,10 +146,7 @@ body {
   border-radius: 25px;
   padding: 0.5%;
 }
-.about-text img {
-  position: relative;
-  top: 7px;
-}
+
 .about-habilities {
   display: flex;
   flex-wrap: wrap;
@@ -166,6 +166,10 @@ body {
   text-align: center;
   padding: 1em;
 }
+.about-habily h3 {
+  font-size: large;
+  line-height: 1em;
+}
 @media only screen and (min-width: 700px) {
   .about-presentation h1 {
     font-size: xx-large;
@@ -182,9 +186,122 @@ body {
   margin: 0.5em 1em;
 }
 
+/* Section: Projects */
+.project-boxes {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.project-box {
+  margin: 1.5em;
+  width: 400px;
+  height: 190px;
+  background: white;
+  box-shadow: 0px 0px 4px 1px var(--css-medium-color);
+  border-radius: 1.5em;
+  padding: 2%;
+  position: relative;
+  z-index: -1;
+}
+div.project-box h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: left;
+}
+div.project-box p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+}
+div.project-box i {
+  position: absolute;
+  font-size: 30px;
+  bottom: 5%;
+  left: 5%;
+}
+div.project-box a {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  color: var(--css-bright-color);
+}
+
+/* Section: Blog */
+.blog-boxes {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.blog-box {
+  /* display: inline-block; */
+  margin: 1%;
+  width: 390px;
+  background: #ffffff;
+  padding: 2%;
+  position: relative;
+  z-index: -1;
+}
 /* Footer */
 
 .footer {
+  margin: 0;
+  background-color: var(--css-dark-color);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 12em;
+  color: var(--css-light-color);
+}
+.footer-container {
   width: 90%;
   margin: 0 auto;
+  text-align: center;
+}
+.footer-container i {
+  color: var(--css-bright-color);
+  margin: 0.2em;
+}
+.footer-logos-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.footer-logos-container a {
+  font-size: 2em;
+  margin: 0.2em;
+}
+.footer-contact {
+  display: block;
+  text-align: center;
+  margin-bottom: 1em;
+}
+.footer-name {
+  text-align: center;
+  position: relative;
+  bottom: 5px;
+}
+.footer-email {
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 700px) {
+  .footer {
+    height: 10em;
+  }
+  .footer-email {
+    font-size: 30px;
+  }
+  .footer-contact {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+  }
 }
