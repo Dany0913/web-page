@@ -61,6 +61,7 @@ span {
   transition: all 0.3s linear;
   width: 100%;
   text-decoration-line: none;
+  cursor: pointer;
 }
 .header-nav-item:hover {
   color: var(--css-bright-color);
